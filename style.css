@@ -1,0 +1,100 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Poppins";
+    background-image: url("./img/yuriy-kovalev-nN1HSDtKdlw-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.card{
+    width: 60rem;
+    background-color: #FFF;
+    border-radius: 1rem;
+    height: 100%;
+    max-height: 30rem;
+    padding: 4rem;
+}    
+.main-card{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #1c1f22;
+}
+.title span{
+    color: rgb(24, 179, 240);
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+.password{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 5.8rem;
+    position: relative;
+    margin-top: 2.6rem;
+}
+.password__input{
+    width: 100%;
+    height: 100%;
+    border-radius: .6rem;
+    border: none;
+    outline: none;
+    background-color: rgb(24, 179, 240);
+    color: #FFF;
+    font-size: 1.8rem;
+    padding: 0 0 0 2rem;
+}
+.password__input::placeholder{
+    color: #FFF;
+
+}
+.password__copy{
+    position: absolute;
+    right: 1.8rem;
+    width: 2.4rem;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22rem;
+    height: 5rem;
+    position: relative;
+    margin-top: 2rem;
+}
+.generate__img{
+    position: absolute;
+    left: 2rem;
+    width:2rem;
+    cursor: pointer;
+}
+.generate{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #f03c18;
+    color: #FFF;
+    border-radius: .4rem;
+    text-align: left;
+    padding: 0 0 0 5rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin-left: .4rem;
+}
